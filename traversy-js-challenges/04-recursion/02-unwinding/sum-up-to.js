@@ -1,3 +1,10 @@
-function sumUpTo() {}
+function sumUpTo(n) {
+    //base case
+    if(n === 1) {
+        return 1;
+    }
+    
+    return n + sumUpTo(n - 1)
+}
 
 module.exports = sumUpTo;

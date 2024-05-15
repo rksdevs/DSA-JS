@@ -41,7 +41,7 @@ const foundNumber = numbers.find((num) => num > 2);
  * some: Checks if at least one array element satisfies a condition.
  */
 
-const hasEvenNumber = numbers.some((num) => num > 5);
+const hasEvenNumber = numbers.some((num) => num % 2 === 0);
 
 // console.log(hasEvenNumber);
 
